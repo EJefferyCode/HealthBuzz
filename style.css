@@ -1,0 +1,224 @@
+.sidenav {
+height: 100%;
+width:0;
+position: fixed;
+z-index: 1;
+top:0;
+left: 0;
+background-color:#111;
+overflow-x:hidden;
+transition: 0.2s;
+padding-top:60px;
+
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+color: #818181;
+display:block;
+transition: 0.3s;
+color:aliceblue;
+font-family: 'ABeeZee', sans-serif;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+ color: #1AF704;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top:0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+.navbar-fixed-top {
+transition: margin-left .2s;
+padding:1px;
+background-color:#290617;
+color:aliceblue;
+font-family: 'Josefin Slab', serif;
+}
+
+@media screen and (max-height:450px) {
+    .sidenav{padding-top:15px;}
+    .side a {font-size 18px;}
+    
+}
+
+/**********OTHER***********/
+
+#account {
+color:#F7CF04;
+}
+
+footer {
+transition: margin-left .1s;
+padding:13px;
+background-color:black;
+color:aliceblue;
+width:100%;
+border: 3px solid black;
+margin-top: 80px;
+}
+
+footer a {
+color:aliceblue; 
+}
+footer a:hover {
+text-decoration: none;
+color:beige;
+}
+
+.bg-3 {
+width: 80%;
+background-color:#FCF4F8;
+}
+
+.bg-3 span {
+color:red;
+}
+
+#row {
+background-color:white;
+}
+
+.col-md-4 img {
+width: 100%;
+padding:2%;
+}
+
+h2 {
+font-family: 'ABeeZee', sans-serif;
+font-weight:bolder;
+font-size: 1.5em;
+color:aliceblue;
+padding: 15px;
+background-color:#290617;
+opacity: 0.9;
+}
+
+.col-lg-6 {
+border: 3px solid;
+border-left-color: #FCF4F8;
+border-right-color: #FCF4F8;
+}
+
+.col-lg-6 ul li {
+list-style: none;
+width:80%;
+margin-left: 25px;
+}
+
+.col-lg-6 h3 {
+cursor: default;
+}
+
+/*carousel*/
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin:auto;
+}
+
+.carousel-control {
+background-color:black;
+color:red;
+opacity: 10;
+}
+
+.carousel-caption {
+background-color:black;
+opacity: .6;
+}
+
+.carousel-caption h3 a {
+color:firebrick;
+}
+
+.carousel-caption p a {
+color:aliceblue;
+font-size: 18px;
+}
+
+
+
+.col-md-3 ol li a {
+color:black;
+font-weight:400;
+}
+
+.col-md-3 ol li a:hover {
+text-decoration: none;
+color:cornflowerblue;
+}
+
+.col-md-3 h3 {
+cursor: default;
+}
+
+#social {
+margin-top:50px;
+margin-bottom: -60px;
+}
+
+.btn-default {
+background-color: firebrick;
+color:aliceblue;
+}
+
+.btn-default:hover {
+background-color:red;
+color:aliceblue;
+}
+
+
+.form-control {
+background-color:#F5F9CA;
+}
+
+/*******************THE MODALS**************/
+
+.modal-header h2, h3 {
+text-align: center;
+cursor:default;
+}
+
+.modal-header p {
+text-align: center;
+cursor:default;
+}
+
+
+form {
+    max-width: 480px;
+    margin: auto;
+    padding-left:3%;
+    padding-right: 3%;
+}
+.form-group >[class*="col-"] + .ws-errorbox {
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
